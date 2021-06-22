@@ -82,6 +82,7 @@ li{
     width: 70%;
     margin: 100px auto;
     align-items: center;
+    gap:40px;
   }
 
 .explanatory-video {
@@ -94,7 +95,7 @@ li{
     width: 120px;
     margin-top: 10px;
   }
-  
+
 .publish {
     /* container styles if any */
   }
