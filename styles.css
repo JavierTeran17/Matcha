@@ -63,15 +63,40 @@ li{
     width: 15%;
 }
 
-.navbar {
+/* .navbar {
     width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
+} */
+
+/* .navbar li {
+    margin: 0 25px 0 25px;
+} */
+.navbar {
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+     background-color: black; 
+}
+  
+.navbar {
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+     /* }background-color: black;  */
 }
 
-.navbar li {
-    margin: 0 25px 0 25px;
+.card-body {
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 350px;
+}
+
+.trabajo-s6 {
+    padding: 2% 2%; 
 }
 
 .actions{
@@ -527,63 +552,63 @@ post-workS4 {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions {
-        display: none;
-    }
-    .textos .titulo {
-        font-size: 30px;
-        padding-top: 35px;
-    }
-    .banner > img {
-        width: 80%;
-    }
-    .publish > form {
-        flex-direction: column;
-        margin-left: 20px;
-        width: 35%;
-    }
-    .publish > form > button {
-        margin-top: 7px;
-    }
+/* .navbar, .actions {
+    display: none;
+} */
+.textos .titulo {
+    font-size: 30px;
+    padding-top: 35px;
+}
+.banner > img {
+    width: 80%;
+}
+.publish > form {
+    flex-direction: column;
+    margin-left: 20px;
+    width: 35%;
+}
+.publish > form > button {
+    margin-top: 7px;
+}
     
-    .publish > form > div {
-        height: 50px;
-        margin-top: 10px;
-    }
+.publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+}
     
-    .publish > form > div > input {
-        width: 65%;
-    }
+.publish > form > div > input {
+    width: 65%;
+}
 
-    .promo {
-        flex-direction: column;
-        max-width: 90%;
-    }
+.promo {
+    flex-direction: column;
+    max-width: 90%;
+}
 
-    .explanatory-video > video {
-        width: 100%;
-    }
+.explanatory-video > video {
+    width: 100%;
+}
 
-    .publish {
-        margin-top: 10px;
-    }
+.publish {
+    margin-top: 10px;
+}
 
-    .publish > h3 {
-        font-size: 25px;
-        line-height: 1.2;
-    }
+.publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+}
 
-    .features {
-        grid-template: repeat(4, 1fr) / 1fr;
-    }
+.features {
+    grid-template: repeat(4, 1fr) / 1fr;
+}
       
-    .feature-image {
-        display:none;
-    }
+.feature-image {
+    display:none;
+}
 
-    .inicio {
-        margin-left: 12px;
-    }
+.inicio {
+    margin-left: 12px;
+}
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
