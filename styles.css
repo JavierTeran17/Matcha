@@ -63,6 +63,52 @@ li{
     width: 15%;
 }
 
+.intro img {
+    width: 70%;
+}
+
+.inicio  *{
+    text-align: center;
+}
+
+.inicio h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.inicio h4 {
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.inicio form {
+    height: 55px;
+}
+
+.inicio input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+    height: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.signup button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 20px;
+    margin-left: -10px;
+    height: 100%;
+}
+
 /* .navbar {
     width: 70%;
     text-align: center;
@@ -145,31 +191,30 @@ h1,h2,h3 {
     margin-top: 10px;
   }
 
-/* .publish {
-     container styles if any 
-  } */
+  .publish {
+    /* container styles if any */
+    margin-left: 20px;
+  }
   
-.publish h3 {
+  .publish h3 {
     font-family: "Alegreya", serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
   }
   
-.publish > p {
+  .publish > p {
     font-size: 16px;
     color: #343434;
     line-height: 1.5;
     margin-bottom: 20px;
   }
   
-.publish > form {
+  .publish > form {
     display: flex;
-    flex-direction: column;
-    width: 20%;
   }
   
-.publish > form p {
+  .publish > form p {
     color: #025157;
     margin-right: 18px;
   }
