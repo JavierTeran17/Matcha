@@ -550,6 +550,16 @@ post-workS4 {
     
 }
 
+.container blog {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
 /* .navbar, .actions {

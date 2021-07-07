@@ -1,0 +1,22 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "//Iniciar proyecto de git\r git init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierTeran17/Matcha.git"
+  },
+  "author": "Javier Teran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierTeran17/Matcha/issues"
+  },
+  "homepage": "https://github.com/JavierTeran17/Matcha#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
