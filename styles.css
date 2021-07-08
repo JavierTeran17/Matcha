@@ -92,9 +92,10 @@ li{
 .inicio input {
     border: 1px solid #b6b6b6;
     padding: 6px 20px;
-    width: 60%;
+    width: 65%;
     max-width: 250px;
     height: 100%;
+    padding-left: 1px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
